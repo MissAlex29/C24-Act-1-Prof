@@ -8,6 +8,7 @@ class Ground {
       this.body = Bodies.rectangle(x,y,width,height,options);
       this.width = width;
       this.height = height;
+      
       //Agregamos este objeto al mundo que estamos creando
       World.add(world, this.body);
     }
